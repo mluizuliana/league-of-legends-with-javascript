@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto League of Legends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsivo.css">
+    <link rel="stylesheet" href="./reset.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./card-bg.svg" alt="personagens">
+    </header>
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem e conheça seu poder</h1>
+            <ul class="lista-de-personagens">
+
+                <li class="personagem" id="heimerdinger" data-name="Heimerdinger" data-description="Heimerdinger é um excêntrico yordle conhecido por sua inteligência e habilidade mecânica:
+                
+                Com sua aparência peculiar, ele é um mestre das invenções tecnológicas. No campo de batalha, controla o espaço com suas torres automáticas, fornecendo uma linha defensiva sólida e causando danos significativos aos inimigos. Sua destreza com dispositivos tecnológicos também o permite lançar granadas explosivas e criar poderosas rajadas de foguetes, tornando-o uma escolha estratégica para dominar as áreas e proteger seus aliados.
+
+                Além de suas torres automáticas, Heimer possui outras habilidades peculiares que o tornam um campeão versátil. Seu Q, Granada Evolutiva, permite que ele lance uma granada que explode em uma área alvo, causando 60/90/120/150/180 (+45% de Poder de Habilidade) de dano aos inimigos atingidos e os atordoa por 1,25 segundos. Seu W, Rajada de Foguetes, dispara foguetes que causam 60/90/120/150/180 (+55% de Poder de Habilidade) de dano em linha reta, possibilitando alcançar adversários distantes ou causar danos em grupo. Já o E, Projétil Chicoteado, lança um feixe de energia que causa 60/100/140/180/220 (+60% de Poder de Habilidade) de dano e reduz a velocidade dos inimigos atingidos em 35/40/45/50/55% por 2 segundos. 
+                ">
+                    <img src="card-heimerdinger.jpg" alt="Personagem Heimerdinger">
+                </li>
+
+                <li class="personagem" id="aatrox" data-name="Aatrox" data-description="Aatrox é um formidável guerreiro imortal:
+                
+                Reconhecido por sua habilidade em batalha e seu poder devastador. Sua passiva, Espada Darkin, concede vida adicional e pode ser ativada para causar dano mágico adicional em seus ataques básicos. Seu Q, Golpe das Trevas, desfere um golpe no solo, causando dano físico em linha reta e desacelerando os inimigos atingidos. O W, Ascensão Abominável, cura Aatrox com base no dano causado a campeões inimigos e causa dano verdadeiro ao atingir os alvos no centro da habilidade. Com o E, Decisão Demoníaca, Aatrox mergulha em direção a um local, causando dano físico aos inimigos ao redor do ponto de chegada. Sua habilidade suprema, Massacre Darkin, transforma Aatrox, concedendo-lhe poder adicional, cura e aumentando o alcance de suas habilidades. 
+                
+                Com sua natureza imortal e seu poder em combate, é uma escolha formidável para os jogadores que buscam espalhar o caos e a destruição.">
+                    <img src="card-aatrox.jpg" alt="Personagem Aatrox">
+                </li>
+                
+                <li class="personagem" id="akali" data-name="Akali" data-description="Akali é uma ágil e mortífera ninja, conhecida por sua maestria nas artes das sombras e luta corpo a corpo. 
+                
+                Sua passiva, Disciplina das Cinzas, concede uma lâmina secundária que causa 30-166 (+60% de Dano de Ataque Adicional) de dano físico após atingir inimigos com ataques básicos. Seu Q, Marca do Assassino, arremessa uma shuriken que causa 30-130 (+65% de Poder de Habilidade) de dano mágico e restaura energia se atingir um inimigo. Já seu W, Cobertura Twilight, cria uma área de fumaça que a deixa invisível e permite curar-se em 35-255 (+50% de Poder de Habilidade) quando dentro dela. Com seu E, Salto Shuriken, Akali investe em um inimigo, causando 40-160 (+70% de Poder de Habilidade) de dano mágico e marcando-o. 
+                
+                Ao reativar a habilidade, ela pode se lançar novamente no alvo marcado. Seu R, Perfuração Dimensional, permite que ela mergulhe nas sombras para executar um combo de cinco ataques que causam 50-260 (+65% de Poder de Habilidade) de dano mágico cada, tornando-a uma assassina extremamente perigosa. Com suas habilidades ágeis e letais, se destaca como uma escolha formidável para eliminar alvos e se movimentar com maestria durante as batalhas.">
+                    <img src="card-akali.jpg" alt="Personagem Akali">
+                </li>
+
+                <li class="personagem" id="bardo" data-name="Bardo" data-description="Bardo é um misterioso viajante celestial, conhecido por suas habilidades únicas e suporte versátil. Sua passiva, Colecionador de Brinquedos, permite que ele colete sinos ao longo da partida, fortalecendo seus ataques básicos com dano mágico adicional de 30-164 com base no Tempo Viajado. Seu Q, Ligeira Dissonância, dispara um projétil que causa 80/125/170/215/260 (+30% de Poder de Habilidade) de dano mágico e desacelera os inimigos atingidos. O W, Santuário Protetor, cria uma área sagrada que cura aliados em 70/110/150/190/230 (+30% de Poder de Habilidade) de vida e concede velocidade de movimento bônus. Com o E, Viagem Cósmica, Bardo pode atravessar paredes e velocidade aumentada, enquanto deixando pacotes mágicos para seus aliados coletarem, concedendo velocidade de movimento extra e mana. Seu R, Templo Celestial, é uma habilidade global que congela campeões inimigos e torres em estase, permitindo setups incríveis e jogadas decisivas.">
+                    <img src="card-bardo.jpg" alt="Personagem Bardo">
+                </li>
+
+                <li class="personagem" id="kindred" data-name="Kindred" data-description="Kindred é uma dupla celestial composta por Cordeiro, um ágil caçador, e Lobo, um espírito feroz: 
+                
+                Sua passiva, Marcas do Caçador, concede acúmulos ao abater monstros e campeões inimigos, aumentando o dano adicional de seus ataques básicos. Seu Q, Dança de Flechas, faz com que Cordeiro dispare uma chuva de flechas em uma área alvo, causando dano físico a inimigos atingidos. O W, Grito do Lobo, faz com que Lobo corra em direção a um local, revelando inimigos em sua trajetória e causando dano físico ao atingi-los. Com o E, Montaria Eterna, Cordeiro dispara uma flecha que causa dano físico adicional com base na vida máxima do alvo e aplica um efeito que reduz a cura recebida por ele. Sua habilidade suprema, Dança do Destino, cria uma área imutável que concede imortalidade a Kindred e a aliados dentro dela, mas também condena inimigos que permanecerem na área ao colapso. 
+                
+                Com sua dupla natureza e habilidades únicas, é uma escolha celestial para os jogadores que buscam uma abordagem estratégica e implacável.">
+                    <img src="card-kindred.jpg" alt="Personagem Kindred">
+                </li>      
+
+                <li class="personagem" id="elise" data-name="Elise" data-description="Elise é uma temível mestra das aranhas:
+                
+                Conhecida por suas habilidades aracnídeas e sua capacidade de surpreender seus adversários. Sua passiva, Presa Teia-de-Lâmina, concede habilidades adicionais aos seus ataques básicos após lançar habilidades. Seu Q, Investida Venenosa, faz com que ela avance e morda um inimigo, causando dano mágico e curando Elise com base na vida faltante do alvo. O W, Filamento Vulcânico, atira uma teia que explode e causa dano mágico em uma área, e também revela inimigos atingidos. Com o E, Casulo Neurotóxico, Elise lança uma teia que prende o primeiro inimigo atingido, tornando-os vulneráveis a ataques subsequentes e revelando-os. Sua habilidade suprema, Forma da Aranha, transforma Elise em uma aranha, concedendo novas habilidades e aumentando sua velocidade de movimento. 
+                
+                Com suas habilidades aracnídeas e sua capacidade de se adaptar durante as batalhas, é uma escolha aterrorizante para os jogadores que buscam espalhar a teia da destruição.">
+                    <img src="card-elise.jpg" alt=" Personagem Elise">
+                </li>
+
+                <li class="personagem" id="evelynn" data-name="Evelynn" data-description="Evelynn é uma sedutora assassina:
+                
+                Conhecida por suas habilidades furtivas e capacidade de eliminar inimigos de surpresa. Sua passiva, Sombra do Demônio, aumenta a velocidade de movimento dela quando ela entra em invisibilidade. Seu Q, Ódio Ósseo, chicoteia inimigos próximos, causando dano mágico e curando Evelyn por uma parte do dano causado. O W, Desejo Ardente, concede velocidade de movimento e a capacidade de atravessar unidades inimigas. Com o E, Encanto, Evelyn seduz um inimigo próximo, causando dano mágico e deixando-o lentamente atraído em sua direção. Sua habilidade suprema, Maldição da Agonia, permite que ela se torne invisível por um longo período, ganhando velocidade de movimento e causando dano contínuo a inimigos próximos. 
+                
+                Com suas habilidades furtivas e sua astúcia para eliminar alvos desprevenidos, é uma escolha irresistível para os jogadores que desejam espalhar a sedução e o caos.">
+                    <img src="card-evelynn.jpg" alt=" Personagem Evelynn">
+                </li>
+
+                <li class="personagem" id="fiddlesticks" data-name="Fiddlesticks" data-description="Fiddlesticks é um aterrorizante espantalho:
+                
+                Conhecido por sua habilidade em semear o medo e caos no campo de batalha. Sua passiva, Colheita Sombria, permite que ele se esconda em arbustos e na névoa, tornando-se invisível para inimigos próximos. Seu Q, Temor, lança um grito assustador que causa medo em inimigos próximos, obrigando-os a recuar. O W, Ceifa, drena a vida de inimigos em uma área e, ao completar a canalização, causa uma explosão que causa dano mágico. Com o E, Ema, Fiddlesticks lança um corvo que causa dano mágico a inimigos atingidos e reduz sua velocidade de movimento. Sua habilidade suprema, Tempestade de Corvos, invoca uma horda de corvos aterrorizantes que voam em direção aos inimigos, causando dano mágico e silenciando-os por um curto período de tempo. 
+                
+                Com suas habilidades sinistras e a capacidade de semear o terror entre seus oponentes, é uma escolha aterrorizante para os jogadores que buscam o domínio do medo e da escuridão.">
+                    <img src="card-fiddlesticks.jpg" alt=" Personagem Fiddlesticks">
+                </li>
+
+                <li class="personagem" id="gnar" data-name="gnar" data-description="Gnar é um adorável e feroz yordle: 
+                
+                Conhecido por suas transformações entre sua forma Gnar e Mega Gnar durante as batalhas. Sua passiva, Mega Regeneração, permite que ele recupere vida após atingir inimigos com ataques básicos. Seu Q, Lança Bumerangue, arremessa um bumerangue em linha reta, causando dano físico aos inimigos atingidos e reduzindo sua velocidade de movimento. O W, Hipermarcha, faz com que Gnar dê saltos que causam dano físico a inimigos próximos e o ajudam a acumular sua barra de Fúria. Com o E, Salto na Cabeça, Gnar pula em um inimigo ou estrutura, causando dano físico e atordoando o alvo. Sua habilidade suprema, Arremessar Massa, transforma Gnar em Mega Gnar, concedendo-lhe maior durabilidade e habilidades adicionais. Durante esse estado, seu Q, W e E mudam de acordo com a transformação. 
+                
+                Com sua personalidade cativante e sua capacidade de se transformar em um gigante furioso, Gnar é uma escolha adorável e imponente para os que buscam diversão e destreza.">
+                    <img src="card-gnar.jpg" alt=" Personagem Gnar">
+                </li>
+
+                <li class="personagem" id="ivern" data-name="Ivern" data-description="Ivern é um encantador protetor da natureza:
+                
+                Conhecido por sua abordagem pacifista e sua capacidade de apoiar aliados de maneira única. Sua passiva, Amigo do Bosque, permite que ele crie arbustos após um breve período de espera, fornecendo visão e mobilidade estratégica no mapa. Seu Q, Lançar Raízes, projeta uma raiz que prende e atordoa o primeiro inimigo atingido, tornando-o vulnerável a ataques subsequentes. O W, Pacto da Pedra Escudo, faz com que Ivern se aproxime de monstros da selva inimigos e os encante, concedendo experiência e ouro aos aliados que os derrotarem. Com o E, Encolhimento Ínvio, Ivern cria um escudo ao redor de um aliado, que explode após um curto período de tempo, causando dano mágico e enraizando inimigos próximos. Sua habilidade suprema, Alvoroço da Natureza, invoca uma margarida gigante que causa dano mágico e desacelera inimigos ao seu redor. 
+                
+                Com suas habilidades únicas e seu compromisso em proteger a natureza, é uma escolha singular para os jogadores que buscam uma abordagem mais estratégica e benevolente.">
+                    <img src="card-ivern.jpg" alt=" Personagem Ivern">
+                </li>
+
+                <li class="personagem" id="jhin" data-name="Jhin" data-description="Jhin é um sinistro e metódico atirador:
+                
+                Conhecido por suas habilidades únicas e sua paixão pela arte do assassinato. Sua passiva, Retribuição de Morte, concede dano adicional em seus ataques básicos após atacar e recarregar sua arma. Seu Q, Dança do Granadeiro, dispara uma bala que atravessa inimigos e causa dano físico de 45/70/95/120/145 (+30% de Dano de Ataque Adicional) ao primeiro alvo atingido. O W, Perseguição de Florescer, armadilha inimigos que caminham sobre elas, causando dano físico de 50/85/120/155/190 (+70% de Dano de Ataque Adicional) e enraizando-os. Com o E, Capturar a Essência, Jhin revela inimigos próximos e lentamente causa dano físico de 20/80/140/200/260 (+15% de Dano de Ataque Adicional) com base na vida faltante do alvo. Sua habilidade suprema, Rito das Flechas Curtas, permite que ele canalize e dispare quatro balas de longo alcance que causam dano físico de 50-200% com base na vida faltante do alvo.
+                
+                Com suas habilidades únicas e seu estilo de jogo calculado, é uma opção intrigante para os jogadores que buscam uma abordagem artística e letal..">
+                    <img src="card-jhin.jpg" alt=" Personagem Jhin">
+                </li>
+
+                <li class="personagem" id="janna" data-name="Janna" data-description="Janna é uma benevolente guardiã dos ventos:
+                
+                Conhecida por suas habilidades de suporte e proteção. Sua passiva, Zéfiro, concede velocidade de movimento adicional a ela e a aliados próximos. Seu Q, Vendaval, cria um poderoso vendaval que causa dano mágico e desacelera inimigos atingidos, proporcionando controle de grupo crucial para a equipe. O W, Zéfira, permite que Janna conceda velocidade de movimento a um aliado ou cause dano mágico e reduza a velocidade de um inimigo. Com o E, Olho do Furacão, Janna protege um aliado com um escudo que absorve dano e, quando ativado novamente, restaura vida ao alvo. Sua habilidade suprema, Monção, invoca uma tempestade que cura aliados próximos e os arremessa para longe dos inimigos, fornecendo uma poderosa ferramenta de disrupção e salvação. 
+                
+                Com suas habilidades de suporte e controle dos ventos, é uma escolha benevolente e essencial para os jogadores que desejam proteger e capacitar sua equipe.">
+                    <img src="card-janna.jpg" alt=" Personagem Janna">
+                </li>
+
+                <li class="personagem" id="kaisa" data-name="Kaisa" data-description="Kai'Sa é uma destemida e letal caçadora: 
+                
+                Reconhecida por suas habilidades evasivas e sua capacidade de se adaptar durante as batalhas. Sua passiva, Filha do Vazio, permite que ela acumule rajadas que aumentam o dano de seus ataques básicos. Seu Q, Chuva Icathiana, dispara mísseis que causam dano mágico de 45/61/78/94/111 (+30% de Dano de Ataque Adicional) a inimigos atingidos, com mísseis adicionais ao acumular rajadas. O W, Arpão Caçador, dispara um projétil que causa dano físico de 35/60/85/110/135 (+40% de Dano de Ataque Adicional) e revela inimigos atingidos. Com o E, Rasgo do Vazio, Kai'Sa se torna invisível em vegetação e ganha velocidade de movimento adicional. Sua habilidade suprema, Chuva do Vazio, permite que ela voe para o ar, revelando inimigos e causando dano físico de 100/150/200 (+100% de Dano de Ataque Adicional) com base na vida faltante do alvo. 
+                
+                Com suas habilidades ágeis e adaptáveis, é uma escolha arrojada para os jogadores que desejam caçar seus inimigos com eficiência e maestria.">
+                    <img src="card-khaisa.jpg" alt=" Personagem Kaisa">
+                </li>
+
+                <li class="personagem" id="morgana" data-name="Morgana" data-description="Morgana é uma poderosa feiticeira:
+                
+                Reconhecida por suas habilidades mágicas e seu controle em campo de batalha. Sua passiva, Alma Perversa, restaura mana quando atinge inimigos com suas habilidades. Seu Q, Ligação das Trevas, projeta correntes mágicas que prendem inimigos em uma área, causando dano mágico de 70/115/160/205/250 (+90% de Poder de Habilidade) e aprisionando-os. O W, Tormento, cria uma área mágica que causa dano mágico contínuo de 8/16/24/32/40 (+11% de Poder de Habilidade) por segundo aos inimigos nela. Com o E, Escudo Negro, Morgana concede um escudo capaz de absorver dano mágico de 60/120/180/240/300 (+70% de Poder de Habilidade), imunidade a controle de grupo e velocidade de movimento bônus enquanto o escudo estiver ativo. Sua habilidade suprema, Cárcere da Alma, invoca uma tempestade de almas aprisionando inimigos na área, causando dano mágico de 150/225/300 (+70% de Poder de Habilidade) e atordoando-os.
+                
+                Com suas habilidades arcanas e sua capacidade de controlar ações em campo, é uma escolha poderosa para os jogadores que buscam exercer domínio mágico em cada confronto.">
+                    <img src="card-morgana.jpg" alt=" Personagem Morgana">
+                </li>
+
+                <li class="personagem" id="orianna" data-name="Orianna" data-description="Orianna é uma habilidosa encantadora mecânica: 
+                
+                Conhecida por controlar um esfera flutuante e dominar o campo de batalha com suas habilidades tecnológicas. Sua passiva, Sentido de Bravura, concede bônus de dano adicional a seus ataques básicos após lançar habilidades. Seu Q, Comando: Atacar, faz com que a esfera orbite em uma área alvo, causando dano mágico de 60/90/120/150/180 (+40% de Poder de Habilidade) a todos os inimigos atingidos. O W, Comando: Proteger, coloca a esfera em um aliado ou em si mesma, concedendo um escudo que absorve 60/90/120/150/180 (+30% de Poder de Habilidade) de dano e causando dano mágico a inimigos próximos. Com o E, Comando: Avançar, a esfera se move rapidamente para uma nova posição, causando dano mágico de 60/90/120/150/180 (+30% de Poder de Habilidade) a inimigos em seu caminho. Sua habilidade suprema, Comando: Onda de Choque, faz a esfera conjurar um vórtice devastador que lança os inimigos ao ar e causa dano mágico de 150/225/300 (+70% de Poder de Habilidade). 
+                
+                Com sua combinação única de controle e dano, Orianna é uma opção estratégica para jogadores que buscam dominar o campo de batalha com precisão tecnológica.">
+                    <img src="card-orianna.jpg" alt=" Personagem Orianna">
+                </li>
+
+                <li class="personagem" id="shaco" data-name="Shaco" data-description="Shaco é um trapaceiro sádico:
+                
+                conhecido por suas artimanhas e jogadas imprevisíveis. Sua passiva, Espadas Gêmeas, concede ataques básicos bônus que causam dano adicional de 10-25 com base no nível. Seu Q, Enganar, permite que ele desapareça por um curto período de tempo e reapareça em uma posição diferente, tornando-o difícil de ser rastreado. O W, Caixa Surpresa, coloca uma caixa que explode quando inimigos se aproximam, causando dano mágico de 15-385 com base no nível e aplicando fear a eles. Com o E, Facada Envenenada, golpeia um inimigo, causando dano físico de 55-235 com base no nível e aplicando um veneno que aumenta o dano recebido por ele. Seu R, Alucinação, cria uma cópia de si mesmo que, ao morrer, explode causando dano mágico de 150-300 com base no nível. 
+                
+                Com suas artimanhas engenhosas e sua capacidade de criar caos nas batalhas, Shaco é uma escolha intrigante para os jogadores que buscam um estilo de jogo furtivo e imprevisível.">
+                    <img src="card-shaco.jpg" alt=" Personagem Shaco">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./aurora.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Personagens</h2>
+                <p class="descricao-personagem" id="descricao-personagem"></p>
+            </h2>
+            </div>
+        </section>
+    </main>
+    <script src="./index.js"></script>
+
+    <footer class="rodape">&copy; Criado e Desenvolvido por Meigan Luiz Uliana</footer>
+</body>
+</html>
